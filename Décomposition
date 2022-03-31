@@ -1,0 +1,5 @@
+Le code de ce projet ce décompse en plusieur partie :
+
+- Faire les questions à mettre dans le jeu, environ une dizaine.
+- Faire une interface propre ( avec PyGame ou tkinter ).
+- Faire le code en important une base de donnée pour les questions.
