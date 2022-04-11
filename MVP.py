@@ -1,4 +1,4 @@
-#Minimum Viable Product
+#Minimum Viable Product pour le quiz
 
 Def question(x:int) -> Boolean :
  """ Prend en paramettre un int et renvoie selon la réponse si c'est True ou False
