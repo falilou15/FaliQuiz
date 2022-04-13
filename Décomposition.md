@@ -1,4 +1,4 @@
-# Le code de ce projet ce décompse en plusieurs partie :
+# Le code de ce projet ce décompose en plusieurs partie :
 
 - Faire les questions à mettre dans le jeu, environ cinq.
 - Faire une interface propre ( avec PyGame ou tkinter ). 
