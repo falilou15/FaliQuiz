@@ -1,6 +1,6 @@
 #Minimum Viable Product pour le quiz
 
-Def question(x:int) -> Boo :
+Def question(x:int) -> Bool :
  """ Prend en paramettre un int et renvoie selon la réponse si c'est True ou False
  """
 
