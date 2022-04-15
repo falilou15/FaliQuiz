@@ -24,6 +24,8 @@ Q4 = {"énoncé" : "Quel est premier membre de l'équipage de Luffy dans One Pie
 
 questions = [Q0,Q1,Q2]
 
+#question 0
+
 score = 0
 SC = print ("Votre Score est de", score)
 print(questions[0]["énoncé"])
@@ -40,6 +42,7 @@ else:
     print("Mauvaise réponse")
     print()
 
+#question 1
 
 print(questions[1]["énoncé"])
 for r in questions[1]["réponses"]:
@@ -55,7 +58,8 @@ else:
     print("Mauvaise réponse")
     print()
   
-
+#question 2
+      
 print(questions[2]["énoncé"])
 for r in questions[2]["réponses"]:
     print(r)
