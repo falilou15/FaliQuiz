@@ -12,7 +12,7 @@ Q1 = {"énoncé" : "Quel arme utilise Thor pour se battre ?" ,
 Q2 = {"énoncé" : "Quel est le nom du village ou vit Naruto ?" ,
       "réponses" : ["1 - Kiri","2 - Konoha","3 - Kumo","4 - Suna"] ,
       "bonne-réponse" : 2}
-"""
+
 Q3 = {"énoncé" : "Quel est le titre du premier Star Wars ?" ,
       "réponses" : ["1 - La Menace fantôme","2 - L'Attaque des clones","3 - Le Retour du Jedi","4 - L'Empire contre-attaque"] ,
       "bonne-réponse" : 1}
@@ -20,9 +20,9 @@ Q3 = {"énoncé" : "Quel est le titre du premier Star Wars ?" ,
 Q4 = {"énoncé" : "Quel est premier membre de l'équipage de Luffy dans One Piece ?" ,
       "réponses" : ["1 - Usopp","2 - Nami","3 - Zoro","4 - Sanji"] ,
       "bonne-réponse" : 3}
-"""
 
-questions = [Q0,Q1,Q2]
+
+questions = [Q0,Q1,Q2,Q3,Q4]
 
 #question 0
 
@@ -73,3 +73,37 @@ else:
     print()
     print("Mauvaise réponse")
     print()
+    
+#question 3
+      
+print(questions[3]["énoncé"])
+for r in questions[3]["réponses"]:
+    print(r)
+réponse_joueur = int(input("Quel est votre réponse ? (répondez en écrivant 1 , 2 , 3 ou 4) "))
+if réponse_joueur == questions[3]["bonne-réponse"]:
+    score += 1
+    print()
+    print("Bonne Réponse ! Votre Score est de", score)
+    print()
+else:
+    print()
+    print("Mauvaise réponse")
+    print()
+    
+#question 3
+      
+print(questions[4]["énoncé"])
+for r in questions[4]["réponses"]:
+    print(r)
+réponse_joueur = int(input("Quel est votre réponse ? (répondez en écrivant 1 , 2 , 3 ou 4) "))
+if réponse_joueur == questions[4]["bonne-réponse"]:
+    score += 1
+    print()
+    print("Bonne Réponse ! Votre Score est de", score)
+    print()
+else:
+    print()
+    print("Mauvaise réponse")
+    print()
+    
+print("Votre score final est de",score, "Merci d'avoir joué !")
