@@ -1,7 +1,7 @@
 #Minimum Viable Product pour le quiz
 
 Q0 = {"énoncé" : "Quel est le vrai nom de Spider-Man ?" ,
-      "réponses" : ["1 - Bruce Wayne","2 - Tony Strak","3 - Rebeu Deter","4 - Peter Parker"] ,
+      "réponses" : ["1 - Cristiano Ronaldo","2 - Tony Strak","3 - Rebeu Deter","4 - Peter Parker"] ,
       "bonne-réponse" : 4}
 
 
